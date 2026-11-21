@@ -1,0 +1,9 @@
+source;share/rover_terrain_mapping/hook/pythonpath.ps1
+source;share/rover_terrain_mapping/hook/pythonpath.dsv
+source;share/rover_terrain_mapping/hook/pythonpath.sh
+source;share/rover_terrain_mapping/hook/ament_prefix_path.ps1
+source;share/rover_terrain_mapping/hook/ament_prefix_path.dsv
+source;share/rover_terrain_mapping/hook/ament_prefix_path.sh
+source;../../build/rover_terrain_mapping/share/rover_terrain_mapping/hook/pythonpath_develop.ps1
+source;../../build/rover_terrain_mapping/share/rover_terrain_mapping/hook/pythonpath_develop.dsv
+source;../../build/rover_terrain_mapping/share/rover_terrain_mapping/hook/pythonpath_develop.sh

@@ -1,0 +1,26 @@
+frames:
+  map: map
+  odom: odom
+  base: base_link
+  lidar: livox_frame
+  camera: zed_camera_link
+sensors:
+  lidar:
+    topic: /livox/lidar
+    frame: livox_frame
+    x: -0.40
+    y: 0.0
+    z: 0.62
+    roll: 0.0
+    pitch: 0.7853981633974483
+    yaw: 0.0
+  camera:
+    x: 0.0
+    y: 0.0
+    z: 0.82
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+robot:
+  length: 1.0
+  width: 0.8

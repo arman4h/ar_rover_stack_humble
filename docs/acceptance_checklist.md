@@ -1,0 +1,13 @@
+# Hardware acceptance checklist
+- [ ] Confirm ROS 2 Humble in the runtime container.
+- [ ] Confirm LiDAR topic type, frame_id, stamp monotonicity and rate.
+- [ ] Confirm ZED VIO odometry child frame is base_link or use a calibrated adapter.
+- [ ] Confirm exactly one publisher for every TF edge.
+- [ ] Confirm odom -> livox_frame lookup at cloud timestamps.
+- [ ] Validate physical LiDAR pitch sign and mounting translation.
+- [ ] Validate elevation output against a measured flat plane and known-height ramp.
+- [ ] Validate unknown cells remain unknown.
+- [ ] Validate terrain plugin merge in Nav2 and obstacle clearing behavior.
+- [ ] Test watchdog timeout with motors physically disconnected.
+- [ ] Verify hardware E-stop independently of ROS.
+- [ ] Tune thresholds from measured rover capability.

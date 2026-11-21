@@ -1,0 +1,30 @@
+[0.624s] Invoking command in '/root/rover_stack_humble/build/rover_bringup': AMENT_PREFIX_PATH=/root/rover_stack_humble/install/rover_terrain_mapping:/root/rover_stack_humble/install/rover_safety:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/rover_stack_humble/install/rover_description PKG_CONFIG_PATH=/root/rover_stack_humble/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/root/rover_stack_humble/install/rover_description/lib/pkgconfig PYTHONPATH=/root/rover_stack_humble/build/rover_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rover_stack_humble/install/rover_bringup/lib/python3.10/site-packages:/root/rover_stack_humble/build/rover_terrain_mapping:/root/rover_stack_humble/install/rover_terrain_mapping/lib/python3.10/site-packages:/root/rover_stack_humble/build/rover_safety:/root/rover_stack_humble/install/rover_safety/lib/python3.10/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/rover_stack_humble/install/rover_description/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/rover_stack_humble/build/rover_bringup/build --no-deps symlink_data
+[0.799s] running develop
+[0.887s] running egg_info
+[0.887s] creating rover_bringup.egg-info
+[0.887s] writing rover_bringup.egg-info/PKG-INFO
+[0.887s] writing dependency_links to rover_bringup.egg-info/dependency_links.txt
+[0.887s] writing requirements to rover_bringup.egg-info/requires.txt
+[0.887s] writing top-level names to rover_bringup.egg-info/top_level.txt
+[0.887s] writing manifest file 'rover_bringup.egg-info/SOURCES.txt'
+[0.890s] reading manifest file 'rover_bringup.egg-info/SOURCES.txt'
+[0.891s] writing manifest file 'rover_bringup.egg-info/SOURCES.txt'
+[0.893s] running build_ext
+[0.894s] Creating /root/rover_stack_humble/install/rover_bringup/lib/python3.10/site-packages/rover-bringup.egg-link (link to .)
+[0.896s] 
+[0.896s] Installed /root/rover_stack_humble/build/rover_bringup
+[0.896s] running symlink_data
+[0.896s] creating /root/rover_stack_humble/install/rover_bringup/share/ament_index
+[0.896s] creating /root/rover_stack_humble/install/rover_bringup/share/ament_index/resource_index
+[0.897s] creating /root/rover_stack_humble/install/rover_bringup/share/ament_index/resource_index/packages
+[0.897s] symbolically linking /root/rover_stack_humble/build/rover_bringup/resource/rover_bringup -> /root/rover_stack_humble/install/rover_bringup/share/ament_index/resource_index/packages
+[0.897s] symbolically linking /root/rover_stack_humble/build/rover_bringup/package.xml -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup
+[0.897s] creating /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch
+[0.897s] symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/description.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch
+[0.897s] symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/full_system.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch
+[0.897s] symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/terrain.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch
+[0.898s] symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/safety.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch
+[0.898s] creating /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/config
+[0.898s] symbolically linking /root/rover_stack_humble/build/rover_bringup/config/terrain.yaml -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/config
+[0.899s] symbolically linking /root/rover_stack_humble/build/rover_bringup/config/safety.yaml -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/config
+[0.928s] Invoked command in '/root/rover_stack_humble/build/rover_bringup' returned '0': AMENT_PREFIX_PATH=/root/rover_stack_humble/install/rover_terrain_mapping:/root/rover_stack_humble/install/rover_safety:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/rover_stack_humble/install/rover_description PKG_CONFIG_PATH=/root/rover_stack_humble/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/root/rover_stack_humble/install/rover_description/lib/pkgconfig PYTHONPATH=/root/rover_stack_humble/build/rover_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rover_stack_humble/install/rover_bringup/lib/python3.10/site-packages:/root/rover_stack_humble/build/rover_terrain_mapping:/root/rover_stack_humble/install/rover_terrain_mapping/lib/python3.10/site-packages:/root/rover_stack_humble/build/rover_safety:/root/rover_stack_humble/install/rover_safety/lib/python3.10/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/rover_stack_humble/install/rover_description/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/rover_stack_humble/build/rover_bringup/build --no-deps symlink_data

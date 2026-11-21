@@ -1,0 +1,1 @@
+<library path="terrain_layer"><class name="rover_terrain_costmap::TerrainLayer" type="rover_terrain_costmap::TerrainLayer" base_class_type="nav2_costmap_2d::Layer"><description>Consumes a terrain OccupancyGrid and merges its costs into Nav2.</description></class></library>

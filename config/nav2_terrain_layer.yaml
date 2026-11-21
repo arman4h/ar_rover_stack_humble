@@ -1,0 +1,32 @@
+# Merge this plugin entry into the Nav2 local_costmap configuration.
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      global_frame: odom
+      robot_base_frame: base_link
+      rolling_window: true
+      width: 6.0
+      height: 6.0
+      resolution: 0.10
+      footprint: "[[0.50, 0.40], [0.50, -0.40], [-0.50, -0.40], [-0.50, 0.40]]"
+      plugins: ["terrain_layer", "obstacle_layer", "inflation_layer"]
+      terrain_layer:
+        plugin: "rover_terrain_costmap::TerrainLayer"
+        enabled: true
+        topic: /terrain/local_costmap
+        use_maximum: true
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        enabled: true
+        observation_sources: lidar_obstacles
+        lidar_obstacles:
+          topic: /livox/lidar
+          data_type: PointCloud2
+          marking: true
+          clearing: true
+          obstacle_max_range: 5.0
+          raytrace_max_range: 6.0
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 0.45
+        cost_scaling_factor: 3.0

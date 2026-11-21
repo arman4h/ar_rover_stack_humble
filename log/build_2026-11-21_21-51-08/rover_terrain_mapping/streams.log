@@ -1,0 +1,24 @@
+[0.915s] Invoking command in '/root/rover_stack_humble/build/rover_terrain_mapping': PYTHONPATH=/root/rover_stack_humble/build/rover_terrain_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rover_stack_humble/install/rover_terrain_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/rover_stack_humble/build/rover_terrain_mapping/build --no-deps symlink_data
+[1.192s] running develop
+[1.304s] running egg_info
+[1.305s] creating rover_terrain_mapping.egg-info
+[1.305s] writing rover_terrain_mapping.egg-info/PKG-INFO
+[1.305s] writing dependency_links to rover_terrain_mapping.egg-info/dependency_links.txt
+[1.306s] writing entry points to rover_terrain_mapping.egg-info/entry_points.txt
+[1.306s] writing requirements to rover_terrain_mapping.egg-info/requires.txt
+[1.306s] writing top-level names to rover_terrain_mapping.egg-info/top_level.txt
+[1.306s] writing manifest file 'rover_terrain_mapping.egg-info/SOURCES.txt'
+[1.307s] reading manifest file 'rover_terrain_mapping.egg-info/SOURCES.txt'
+[1.307s] writing manifest file 'rover_terrain_mapping.egg-info/SOURCES.txt'
+[1.308s] running build_ext
+[1.309s] Creating /root/rover_stack_humble/install/rover_terrain_mapping/lib/python3.10/site-packages/rover-terrain-mapping.egg-link (link to .)
+[1.310s] Installing terrain_mapper script to /root/rover_stack_humble/install/rover_terrain_mapping/lib/rover_terrain_mapping
+[1.310s] 
+[1.310s] Installed /root/rover_stack_humble/build/rover_terrain_mapping
+[1.310s] running symlink_data
+[1.312s] creating /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index
+[1.312s] creating /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index/resource_index
+[1.312s] creating /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index/resource_index/packages
+[1.312s] symbolically linking /root/rover_stack_humble/build/rover_terrain_mapping/resource/rover_terrain_mapping -> /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index/resource_index/packages
+[1.312s] symbolically linking /root/rover_stack_humble/build/rover_terrain_mapping/package.xml -> /root/rover_stack_humble/install/rover_terrain_mapping/share/rover_terrain_mapping
+[1.339s] Invoked command in '/root/rover_stack_humble/build/rover_terrain_mapping' returned '0': PYTHONPATH=/root/rover_stack_humble/build/rover_terrain_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rover_stack_humble/install/rover_terrain_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/rover_stack_humble/build/rover_terrain_mapping/build --no-deps symlink_data

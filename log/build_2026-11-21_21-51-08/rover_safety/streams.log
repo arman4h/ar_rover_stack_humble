@@ -1,0 +1,24 @@
+[0.916s] Invoking command in '/root/rover_stack_humble/build/rover_safety': PYTHONPATH=/root/rover_stack_humble/build/rover_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rover_stack_humble/install/rover_safety/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/rover_stack_humble/build/rover_safety/build --no-deps symlink_data
+[1.139s] running develop
+[1.232s] running egg_info
+[1.232s] creating rover_safety.egg-info
+[1.232s] writing rover_safety.egg-info/PKG-INFO
+[1.232s] writing dependency_links to rover_safety.egg-info/dependency_links.txt
+[1.233s] writing entry points to rover_safety.egg-info/entry_points.txt
+[1.233s] writing requirements to rover_safety.egg-info/requires.txt
+[1.233s] writing top-level names to rover_safety.egg-info/top_level.txt
+[1.233s] writing manifest file 'rover_safety.egg-info/SOURCES.txt'
+[1.235s] reading manifest file 'rover_safety.egg-info/SOURCES.txt'
+[1.236s] writing manifest file 'rover_safety.egg-info/SOURCES.txt'
+[1.239s] running build_ext
+[1.239s] Creating /root/rover_stack_humble/install/rover_safety/lib/python3.10/site-packages/rover-safety.egg-link (link to .)
+[1.239s] Installing cmd_vel_watchdog script to /root/rover_stack_humble/install/rover_safety/lib/rover_safety
+[1.240s] 
+[1.240s] Installed /root/rover_stack_humble/build/rover_safety
+[1.240s] running symlink_data
+[1.240s] creating /root/rover_stack_humble/install/rover_safety/share/ament_index
+[1.241s] creating /root/rover_stack_humble/install/rover_safety/share/ament_index/resource_index
+[1.241s] creating /root/rover_stack_humble/install/rover_safety/share/ament_index/resource_index/packages
+[1.241s] symbolically linking /root/rover_stack_humble/build/rover_safety/resource/rover_safety -> /root/rover_stack_humble/install/rover_safety/share/ament_index/resource_index/packages
+[1.241s] symbolically linking /root/rover_stack_humble/build/rover_safety/package.xml -> /root/rover_stack_humble/install/rover_safety/share/rover_safety
+[1.274s] Invoked command in '/root/rover_stack_humble/build/rover_safety' returned '0': PYTHONPATH=/root/rover_stack_humble/build/rover_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rover_stack_humble/install/rover_safety/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/rover_stack_humble/build/rover_safety/build --no-deps symlink_data

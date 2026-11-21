@@ -1,0 +1,321 @@
+[0.000000] (-) TimerEvent: {}
+[0.000205] (rover_description) JobQueued: {'identifier': 'rover_description', 'dependencies': OrderedDict()}
+[0.000465] (rover_safety) JobQueued: {'identifier': 'rover_safety', 'dependencies': OrderedDict()}
+[0.000482] (rover_terrain_costmap) JobQueued: {'identifier': 'rover_terrain_costmap', 'dependencies': OrderedDict()}
+[0.000495] (rover_terrain_mapping) JobQueued: {'identifier': 'rover_terrain_mapping', 'dependencies': OrderedDict()}
+[0.000507] (rover_bringup) JobQueued: {'identifier': 'rover_bringup', 'dependencies': OrderedDict([('rover_description', '/root/rover_stack_humble/install/rover_description'), ('rover_safety', '/root/rover_stack_humble/install/rover_safety'), ('rover_terrain_mapping', '/root/rover_stack_humble/install/rover_terrain_mapping')])}
+[0.000524] (rover_description) JobStarted: {'identifier': 'rover_description'}
+[0.007764] (rover_safety) JobStarted: {'identifier': 'rover_safety'}
+[0.011451] (rover_terrain_mapping) JobStarted: {'identifier': 'rover_terrain_mapping'}
+[0.014798] (rover_terrain_costmap) JobStarted: {'identifier': 'rover_terrain_costmap'}
+[0.018107] (rover_description) JobProgress: {'identifier': 'rover_description', 'progress': 'cmake'}
+[0.018437] (rover_description) Command: {'cmd': ['/usr/bin/cmake', '/root/rover_stack_humble/src/rover_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/root/rover_stack_humble/install/rover_description'], 'cwd': '/root/rover_stack_humble/build/rover_description', 'env': OrderedDict([('HOSTNAME', 'arm3li'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rover_stack_humble'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/rover_stack_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rover_stack_humble/build/rover_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.099827] (-) TimerEvent: {}
+[0.200074] (-) TimerEvent: {}
+[0.300320] (-) TimerEvent: {}
+[0.358554] (rover_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.358827] (rover_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.358969] (rover_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.359076] (rover_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.359178] (rover_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.359286] (rover_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.359353] (rover_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.359426] (rover_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.359507] (rover_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.359590] (rover_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.359669] (rover_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.359747] (rover_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.359822] (rover_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.359895] (rover_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.359956] (rover_terrain_costmap) JobProgress: {'identifier': 'rover_terrain_costmap', 'progress': 'cmake'}
+[0.360486] (rover_terrain_costmap) Command: {'cmd': ['/usr/bin/cmake', '/root/rover_stack_humble/src/rover_terrain_costmap', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/root/rover_stack_humble/install/rover_terrain_costmap'], 'cwd': '/root/rover_stack_humble/build/rover_terrain_costmap', 'env': OrderedDict([('HOSTNAME', 'arm3li'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rover_stack_humble'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/rover_stack_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rover_stack_humble/build/rover_terrain_costmap'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.400428] (-) TimerEvent: {}
+[0.409374] (rover_terrain_costmap) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.456926] (rover_terrain_costmap) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.466285] (rover_terrain_costmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.497389] (rover_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.498623] (rover_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.499332] (rover_description) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.499484] (rover_description) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.499563] (rover_description) StderrLine: {'line': b'\n'}
+[0.499638] (rover_description) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[0.499713] (rover_description) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[0.499791] (rover_description) StderrLine: {'line': b'\n'}
+[0.499865] (rover_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.500398] (rover_description) StdoutLine: {'line': b'-- Build files have been written to: /root/rover_stack_humble/build/rover_description\n'}
+[0.500518] (-) TimerEvent: {}
+[0.505988] (rover_description) CommandEnded: {'returncode': 0}
+[0.506527] (rover_description) JobProgress: {'identifier': 'rover_description', 'progress': 'build'}
+[0.507362] (rover_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rover_stack_humble/build/rover_description', '--', '-j8', '-l8'], 'cwd': '/root/rover_stack_humble/build/rover_description', 'env': OrderedDict([('HOSTNAME', 'arm3li'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rover_stack_humble'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/rover_stack_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rover_stack_humble/build/rover_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.540845] (rover_terrain_costmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.550868] (rover_description) CommandEnded: {'returncode': 0}
+[0.551991] (rover_description) JobProgress: {'identifier': 'rover_description', 'progress': 'install'}
+[0.552029] (rover_terrain_costmap) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.552138] (rover_terrain_costmap) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.552214] (rover_terrain_costmap) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.555298] (rover_terrain_costmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.559302] (rover_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rover_stack_humble/build/rover_description'], 'cwd': '/root/rover_stack_humble/build/rover_description', 'env': OrderedDict([('HOSTNAME', 'arm3li'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rover_stack_humble'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/rover_stack_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rover_stack_humble/build/rover_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.568544] (rover_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.568746] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/urdf\n'}
+[0.568843] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/urdf/rover.urdf.xacro\n'}
+[0.568927] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/launch\n'}
+[0.569018] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/launch/description.launch.py\n'}
+[0.569509] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/launch/__pycache__\n'}
+[0.569704] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/launch/__pycache__/description.launch.cpython-313.pyc\n'}
+[0.569797] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description\n'}
+[0.569864] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description\n'}
+[0.569935] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/environment/ament_prefix_path.sh\n'}
+[0.570091] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv\n'}
+[0.570575] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/environment/path.sh\n'}
+[0.570790] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/environment/path.dsv\n'}
+[0.570957] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/local_setup.bash\n'}
+[0.571101] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/local_setup.sh\n'}
+[0.571163] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/local_setup.zsh\n'}
+[0.571231] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/local_setup.dsv\n'}
+[0.571311] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/package.dsv\n'}
+[0.571391] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/ament_index/resource_index/packages/rover_description\n'}
+[0.571502] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake\n'}
+[0.571799] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake\n'}
+[0.572010] (rover_description) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_description/share/rover_description/package.xml\n'}
+[0.573949] (rover_description) CommandEnded: {'returncode': 0}
+[0.609139] (-) TimerEvent: {}
+[0.614415] (rover_description) JobEnded: {'identifier': 'rover_description', 'rc': 0}
+[0.636833] (rover_terrain_costmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.645307] (rover_terrain_costmap) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.646290] (rover_terrain_costmap) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.646445] (rover_terrain_costmap) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.649164] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.709254] (-) TimerEvent: {}
+[0.809581] (-) TimerEvent: {}
+[0.823037] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.909760] (-) TimerEvent: {}
+[0.923178] (rover_safety) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/rover_stack_humble/build/rover_safety/build', '--no-deps', 'symlink_data'], 'cwd': '/root/rover_stack_humble/build/rover_safety', 'env': {'HOSTNAME': 'arm3li', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/rover_stack_humble', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/rover_stack_humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/rover_stack_humble/build/rover_safety', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/rover_stack_humble/build/rover_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rover_stack_humble/install/rover_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.926097] (rover_terrain_mapping) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/rover_stack_humble/build/rover_terrain_mapping/build', '--no-deps', 'symlink_data'], 'cwd': '/root/rover_stack_humble/build/rover_terrain_mapping', 'env': {'HOSTNAME': 'arm3li', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/rover_stack_humble', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/rover_stack_humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/rover_stack_humble/build/rover_terrain_mapping', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/rover_stack_humble/build/rover_terrain_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rover_stack_humble/install/rover_terrain_mapping/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.930881] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.981450] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.989300] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.001327] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.009927] (-) TimerEvent: {}
+[1.017191] (rover_terrain_costmap) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.040084] (rover_terrain_costmap) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.097837] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.101113] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.110052] (-) TimerEvent: {}
+[1.146996] (rover_safety) StdoutLine: {'line': b'running develop\n'}
+[1.189789] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.203380] (rover_terrain_mapping) StdoutLine: {'line': b'running develop\n'}
+[1.210138] (-) TimerEvent: {}
+[1.216192] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.239673] (rover_safety) StdoutLine: {'line': b'running egg_info\n'}
+[1.239825] (rover_safety) StdoutLine: {'line': b'creating rover_safety.egg-info\n'}
+[1.240032] (rover_safety) StdoutLine: {'line': b'writing rover_safety.egg-info/PKG-INFO\n'}
+[1.240167] (rover_safety) StdoutLine: {'line': b'writing dependency_links to rover_safety.egg-info/dependency_links.txt\n'}
+[1.240272] (rover_safety) StdoutLine: {'line': b'writing entry points to rover_safety.egg-info/entry_points.txt\n'}
+[1.240397] (rover_safety) StdoutLine: {'line': b'writing requirements to rover_safety.egg-info/requires.txt\n'}
+[1.240475] (rover_safety) StdoutLine: {'line': b'writing top-level names to rover_safety.egg-info/top_level.txt\n'}
+[1.240601] (rover_safety) StdoutLine: {'line': b"writing manifest file 'rover_safety.egg-info/SOURCES.txt'\n"}
+[1.242512] (rover_safety) StdoutLine: {'line': b"reading manifest file 'rover_safety.egg-info/SOURCES.txt'\n"}
+[1.243483] (rover_safety) StdoutLine: {'line': b"writing manifest file 'rover_safety.egg-info/SOURCES.txt'\n"}
+[1.246151] (rover_safety) StdoutLine: {'line': b'running build_ext\n'}
+[1.246836] (rover_safety) StdoutLine: {'line': b'Creating /root/rover_stack_humble/install/rover_safety/lib/python3.10/site-packages/rover-safety.egg-link (link to .)\n'}
+[1.247082] (rover_safety) StdoutLine: {'line': b'Installing cmd_vel_watchdog script to /root/rover_stack_humble/install/rover_safety/lib/rover_safety\n'}
+[1.247571] (rover_safety) StdoutLine: {'line': b'\n'}
+[1.247783] (rover_safety) StdoutLine: {'line': b'Installed /root/rover_stack_humble/build/rover_safety\n'}
+[1.248006] (rover_safety) StdoutLine: {'line': b'running symlink_data\n'}
+[1.248190] (rover_safety) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_safety/share/ament_index\n'}
+[1.248289] (rover_safety) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_safety/share/ament_index/resource_index\n'}
+[1.248380] (rover_safety) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_safety/share/ament_index/resource_index/packages\n'}
+[1.248513] (rover_safety) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_safety/resource/rover_safety -> /root/rover_stack_humble/install/rover_safety/share/ament_index/resource_index/packages\n'}
+[1.248623] (rover_safety) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_safety/package.xml -> /root/rover_stack_humble/install/rover_safety/share/rover_safety\n'}
+[1.265198] (rover_terrain_costmap) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.273247] (rover_terrain_costmap) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.281165] (rover_safety) CommandEnded: {'returncode': 0}
+[1.287862] (rover_safety) JobEnded: {'identifier': 'rover_safety', 'rc': 0}
+[1.310256] (-) TimerEvent: {}
+[1.315910] (rover_terrain_mapping) StdoutLine: {'line': b'running egg_info\n'}
+[1.316350] (rover_terrain_mapping) StdoutLine: {'line': b'creating rover_terrain_mapping.egg-info\n'}
+[1.316475] (rover_terrain_mapping) StdoutLine: {'line': b'writing rover_terrain_mapping.egg-info/PKG-INFO\n'}
+[1.316550] (rover_terrain_mapping) StdoutLine: {'line': b'writing dependency_links to rover_terrain_mapping.egg-info/dependency_links.txt\n'}
+[1.317340] (rover_terrain_mapping) StdoutLine: {'line': b'writing entry points to rover_terrain_mapping.egg-info/entry_points.txt\n'}
+[1.317427] (rover_terrain_mapping) StdoutLine: {'line': b'writing requirements to rover_terrain_mapping.egg-info/requires.txt\n'}
+[1.317497] (rover_terrain_mapping) StdoutLine: {'line': b'writing top-level names to rover_terrain_mapping.egg-info/top_level.txt\n'}
+[1.317566] (rover_terrain_mapping) StdoutLine: {'line': b"writing manifest file 'rover_terrain_mapping.egg-info/SOURCES.txt'\n"}
+[1.318297] (rover_terrain_mapping) StdoutLine: {'line': b"reading manifest file 'rover_terrain_mapping.egg-info/SOURCES.txt'\n"}
+[1.318741] (rover_terrain_mapping) StdoutLine: {'line': b"writing manifest file 'rover_terrain_mapping.egg-info/SOURCES.txt'\n"}
+[1.319862] (rover_terrain_mapping) StdoutLine: {'line': b'running build_ext\n'}
+[1.320271] (rover_terrain_mapping) StdoutLine: {'line': b'Creating /root/rover_stack_humble/install/rover_terrain_mapping/lib/python3.10/site-packages/rover-terrain-mapping.egg-link (link to .)\n'}
+[1.321831] (rover_terrain_mapping) StdoutLine: {'line': b'Installing terrain_mapper script to /root/rover_stack_humble/install/rover_terrain_mapping/lib/rover_terrain_mapping\n'}
+[1.322018] (rover_terrain_mapping) StdoutLine: {'line': b'\n'}
+[1.322116] (rover_terrain_mapping) StdoutLine: {'line': b'Installed /root/rover_stack_humble/build/rover_terrain_mapping\n'}
+[1.322198] (rover_terrain_mapping) StdoutLine: {'line': b'running symlink_data\n'}
+[1.323180] (rover_terrain_mapping) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index\n'}
+[1.323399] (rover_terrain_mapping) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index/resource_index\n'}
+[1.323485] (rover_terrain_mapping) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index/resource_index/packages\n'}
+[1.323556] (rover_terrain_mapping) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_terrain_mapping/resource/rover_terrain_mapping -> /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index/resource_index/packages\n'}
+[1.323629] (rover_terrain_mapping) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_terrain_mapping/package.xml -> /root/rover_stack_humble/install/rover_terrain_mapping/share/rover_terrain_mapping\n'}
+[1.334147] (rover_terrain_costmap) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.334675] (rover_terrain_costmap) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.350597] (rover_terrain_mapping) CommandEnded: {'returncode': 0}
+[1.357003] (rover_terrain_mapping) JobEnded: {'identifier': 'rover_terrain_mapping', 'rc': 0}
+[1.357817] (rover_bringup) JobStarted: {'identifier': 'rover_bringup'}
+[1.394382] (rover_terrain_costmap) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.395535] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.411412] (-) TimerEvent: {}
+[1.441899] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.466420] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.20 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[1.511585] (-) TimerEvent: {}
+[1.611862] (-) TimerEvent: {}
+[1.630034] (rover_terrain_costmap) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.630199] (rover_terrain_costmap) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.711970] (-) TimerEvent: {}
+[1.776614] (rover_terrain_costmap) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.808909] (rover_terrain_costmap) StdoutLine: {'line': b'-- Generating done\n'}
+[1.810095] (rover_terrain_costmap) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.810291] (rover_terrain_costmap) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.810372] (rover_terrain_costmap) StderrLine: {'line': b'\n'}
+[1.810439] (rover_terrain_costmap) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[1.810501] (rover_terrain_costmap) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[1.810571] (rover_terrain_costmap) StderrLine: {'line': b'\n'}
+[1.810638] (rover_terrain_costmap) StderrLine: {'line': b'\x1b[0m\n'}
+[1.812103] (-) TimerEvent: {}
+[1.816334] (rover_terrain_costmap) StdoutLine: {'line': b'-- Build files have been written to: /root/rover_stack_humble/build/rover_terrain_costmap\n'}
+[1.832516] (rover_terrain_costmap) CommandEnded: {'returncode': 0}
+[1.832911] (rover_terrain_costmap) JobProgress: {'identifier': 'rover_terrain_costmap', 'progress': 'build'}
+[1.833116] (rover_terrain_costmap) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rover_stack_humble/build/rover_terrain_costmap', '--', '-j8', '-l8'], 'cwd': '/root/rover_stack_humble/build/rover_terrain_costmap', 'env': OrderedDict([('HOSTNAME', 'arm3li'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rover_stack_humble'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/rover_stack_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rover_stack_humble/build/rover_terrain_costmap'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[1.872080] (rover_terrain_costmap) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/terrain_layer.dir/src/terrain_layer.cpp.o\x1b[0m\n'}
+[1.912219] (-) TimerEvent: {}
+[1.980867] (rover_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/rover_stack_humble/build/rover_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/root/rover_stack_humble/build/rover_bringup', 'env': {'HOSTNAME': 'arm3li', 'ROS_PACKAGE_PATH': '/root/rover_stack_humble/install/rover_description/share', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/rover_stack_humble', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/rover_stack_humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/root/rover_stack_humble/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/root/rover_stack_humble/install/rover_description/lib/pkgconfig', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/rover_stack_humble/install/rover_terrain_mapping:/root/rover_stack_humble/install/rover_safety:/opt/ros/humble', 'PWD': '/root/rover_stack_humble/build/rover_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/rover_stack_humble/build/rover_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rover_stack_humble/install/rover_bringup/lib/python3.10/site-packages:/root/rover_stack_humble/build/rover_terrain_mapping:/root/rover_stack_humble/install/rover_terrain_mapping/lib/python3.10/site-packages:/root/rover_stack_humble/build/rover_safety:/root/rover_stack_humble/install/rover_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/rover_stack_humble/install/rover_description'}, 'shell': False}
+[2.012322] (-) TimerEvent: {}
+[2.112624] (-) TimerEvent: {}
+[2.156308] (rover_bringup) StdoutLine: {'line': b'running develop\n'}
+[2.212726] (-) TimerEvent: {}
+[2.244304] (rover_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[2.244550] (rover_bringup) StdoutLine: {'line': b'creating rover_bringup.egg-info\n'}
+[2.244657] (rover_bringup) StdoutLine: {'line': b'writing rover_bringup.egg-info/PKG-INFO\n'}
+[2.244783] (rover_bringup) StdoutLine: {'line': b'writing dependency_links to rover_bringup.egg-info/dependency_links.txt\n'}
+[2.244959] (rover_bringup) StdoutLine: {'line': b'writing requirements to rover_bringup.egg-info/requires.txt\n'}
+[2.245044] (rover_bringup) StdoutLine: {'line': b'writing top-level names to rover_bringup.egg-info/top_level.txt\n'}
+[2.245151] (rover_bringup) StdoutLine: {'line': b"writing manifest file 'rover_bringup.egg-info/SOURCES.txt'\n"}
+[2.247382] (rover_bringup) StdoutLine: {'line': b"reading manifest file 'rover_bringup.egg-info/SOURCES.txt'\n"}
+[2.249169] (rover_bringup) StdoutLine: {'line': b"writing manifest file 'rover_bringup.egg-info/SOURCES.txt'\n"}
+[2.250998] (rover_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[2.251409] (rover_bringup) StdoutLine: {'line': b'Creating /root/rover_stack_humble/install/rover_bringup/lib/python3.10/site-packages/rover-bringup.egg-link (link to .)\n'}
+[2.253763] (rover_bringup) StdoutLine: {'line': b'\n'}
+[2.253936] (rover_bringup) StdoutLine: {'line': b'Installed /root/rover_stack_humble/build/rover_bringup\n'}
+[2.254054] (rover_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[2.254121] (rover_bringup) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_bringup/share/ament_index\n'}
+[2.254208] (rover_bringup) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_bringup/share/ament_index/resource_index\n'}
+[2.254288] (rover_bringup) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_bringup/share/ament_index/resource_index/packages\n'}
+[2.254436] (rover_bringup) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_bringup/resource/rover_bringup -> /root/rover_stack_humble/install/rover_bringup/share/ament_index/resource_index/packages\n'}
+[2.254550] (rover_bringup) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_bringup/package.xml -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup\n'}
+[2.254633] (rover_bringup) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch\n'}
+[2.254703] (rover_bringup) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/description.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch\n'}
+[2.254820] (rover_bringup) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/full_system.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch\n'}
+[2.254906] (rover_bringup) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/terrain.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch\n'}
+[2.255628] (rover_bringup) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/safety.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch\n'}
+[2.256058] (rover_bringup) StdoutLine: {'line': b'creating /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/config\n'}
+[2.256189] (rover_bringup) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_bringup/config/terrain.yaml -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/config\n'}
+[2.256394] (rover_bringup) StdoutLine: {'line': b'symbolically linking /root/rover_stack_humble/build/rover_bringup/config/safety.yaml -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/config\n'}
+[2.285012] (rover_bringup) CommandEnded: {'returncode': 0}
+[2.291043] (rover_bringup) JobEnded: {'identifier': 'rover_bringup', 'rc': 0}
+[2.312841] (-) TimerEvent: {}
+[2.413118] (-) TimerEvent: {}
+[2.513395] (-) TimerEvent: {}
+[2.613724] (-) TimerEvent: {}
+[2.714333] (-) TimerEvent: {}
+[2.814588] (-) TimerEvent: {}
+[2.914919] (-) TimerEvent: {}
+[3.015163] (-) TimerEvent: {}
+[3.115431] (-) TimerEvent: {}
+[3.215732] (-) TimerEvent: {}
+[3.316020] (-) TimerEvent: {}
+[3.416305] (-) TimerEvent: {}
+[3.517192] (-) TimerEvent: {}
+[3.617700] (-) TimerEvent: {}
+[3.717966] (-) TimerEvent: {}
+[3.818298] (-) TimerEvent: {}
+[3.918574] (-) TimerEvent: {}
+[4.018866] (-) TimerEvent: {}
+[4.119173] (-) TimerEvent: {}
+[4.219544] (-) TimerEvent: {}
+[4.319822] (-) TimerEvent: {}
+[4.420173] (-) TimerEvent: {}
+[4.520467] (-) TimerEvent: {}
+[4.620734] (-) TimerEvent: {}
+[4.721046] (-) TimerEvent: {}
+[4.821343] (-) TimerEvent: {}
+[4.921687] (-) TimerEvent: {}
+[5.021946] (-) TimerEvent: {}
+[5.122248] (-) TimerEvent: {}
+[5.222501] (-) TimerEvent: {}
+[5.322773] (-) TimerEvent: {}
+[5.423053] (-) TimerEvent: {}
+[5.523423] (-) TimerEvent: {}
+[5.623701] (-) TimerEvent: {}
+[5.724019] (-) TimerEvent: {}
+[5.824288] (-) TimerEvent: {}
+[5.924562] (-) TimerEvent: {}
+[6.024857] (-) TimerEvent: {}
+[6.125127] (-) TimerEvent: {}
+[6.225454] (-) TimerEvent: {}
+[6.325767] (-) TimerEvent: {}
+[6.426064] (-) TimerEvent: {}
+[6.526314] (-) TimerEvent: {}
+[6.626560] (-) TimerEvent: {}
+[6.726828] (-) TimerEvent: {}
+[6.827105] (-) TimerEvent: {}
+[6.927425] (-) TimerEvent: {}
+[7.027717] (-) TimerEvent: {}
+[7.127973] (-) TimerEvent: {}
+[7.228245] (-) TimerEvent: {}
+[7.328516] (-) TimerEvent: {}
+[7.428776] (-) TimerEvent: {}
+[7.529056] (-) TimerEvent: {}
+[7.629414] (-) TimerEvent: {}
+[7.729694] (-) TimerEvent: {}
+[7.829929] (-) TimerEvent: {}
+[7.930182] (-) TimerEvent: {}
+[8.030405] (-) TimerEvent: {}
+[8.130713] (-) TimerEvent: {}
+[8.230984] (-) TimerEvent: {}
+[8.237783] (rover_terrain_costmap) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libterrain_layer.so\x1b[0m\n'}
+[8.331199] (-) TimerEvent: {}
+[8.431606] (-) TimerEvent: {}
+[8.531946] (-) TimerEvent: {}
+[8.632236] (-) TimerEvent: {}
+[8.733134] (-) TimerEvent: {}
+[8.833794] (-) TimerEvent: {}
+[8.934249] (-) TimerEvent: {}
+[9.015585] (rover_terrain_costmap) StdoutLine: {'line': b'[100%] Built target terrain_layer\n'}
+[9.027190] (rover_terrain_costmap) CommandEnded: {'returncode': 0}
+[9.028317] (rover_terrain_costmap) JobProgress: {'identifier': 'rover_terrain_costmap', 'progress': 'install'}
+[9.028544] (rover_terrain_costmap) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rover_stack_humble/build/rover_terrain_costmap'], 'cwd': '/root/rover_stack_humble/build/rover_terrain_costmap', 'env': OrderedDict([('HOSTNAME', 'arm3li'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rover_stack_humble'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/rover_stack_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rover_stack_humble/build/rover_terrain_costmap'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[9.034350] (-) TimerEvent: {}
+[9.034691] (rover_terrain_costmap) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.034928] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/rover_terrain_costmap_plugins.xml\n'}
+[9.035063] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/lib/libterrain_layer.so\n'}
+[9.040120] (rover_terrain_costmap) StdoutLine: {'line': b'-- Set runtime path of "/root/rover_stack_humble/install/rover_terrain_costmap/lib/libterrain_layer.so" to ""\n'}
+[9.040415] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/include\n'}
+[9.040534] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/include/rover_terrain_costmap\n'}
+[9.040615] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/include/rover_terrain_costmap/terrain_layer.hpp\n'}
+[9.040717] (rover_terrain_costmap) StdoutLine: {'line': b'-- Up-to-date: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/rover_terrain_costmap_plugins.xml\n'}
+[9.040811] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/ament_index/resource_index/package_run_dependencies/rover_terrain_costmap\n'}
+[9.040901] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/ament_index/resource_index/parent_prefix_path/rover_terrain_costmap\n'}
+[9.040991] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/environment/ament_prefix_path.sh\n'}
+[9.041069] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/environment/ament_prefix_path.dsv\n'}
+[9.041137] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/environment/path.sh\n'}
+[9.041241] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/environment/path.dsv\n'}
+[9.041330] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/local_setup.bash\n'}
+[9.041504] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/local_setup.sh\n'}
+[9.041657] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/local_setup.zsh\n'}
+[9.041735] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/local_setup.dsv\n'}
+[9.041852] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/package.dsv\n'}
+[9.041980] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/ament_index/resource_index/packages/rover_terrain_costmap\n'}
+[9.042123] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/rover_terrain_costmap\n'}
+[9.042304] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.042447] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/cmake/rover_terrain_costmapConfig.cmake\n'}
+[9.042565] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/cmake/rover_terrain_costmapConfig-version.cmake\n'}
+[9.042744] (rover_terrain_costmap) StdoutLine: {'line': b'-- Installing: /root/rover_stack_humble/install/rover_terrain_costmap/share/rover_terrain_costmap/package.xml\n'}
+[9.045006] (rover_terrain_costmap) CommandEnded: {'returncode': 0}
+[9.064219] (rover_terrain_costmap) JobEnded: {'identifier': 'rover_terrain_costmap', 'rc': 0}
+[9.064903] (-) EventReactorShutdown: {}

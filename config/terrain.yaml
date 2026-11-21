@@ -1,0 +1,15 @@
+terrain_mapper:
+  ros__parameters:
+    input_topic: /livox/lidar
+    output_frame: odom
+    base_frame: base_link
+    resolution: 0.10
+    width: 15.0
+    height: 15.0
+    publish_rate: 5.0
+    min_points_per_cell: 3
+    ground_percentile: 15.0
+    max_height_step: 0.18
+    lethal_height_step: 0.30
+    max_sensor_age: 0.35
+    unknown_value: -1

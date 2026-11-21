@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating rover_terrain_mapping.egg-info
+writing rover_terrain_mapping.egg-info/PKG-INFO
+writing dependency_links to rover_terrain_mapping.egg-info/dependency_links.txt
+writing entry points to rover_terrain_mapping.egg-info/entry_points.txt
+writing requirements to rover_terrain_mapping.egg-info/requires.txt
+writing top-level names to rover_terrain_mapping.egg-info/top_level.txt
+writing manifest file 'rover_terrain_mapping.egg-info/SOURCES.txt'
+reading manifest file 'rover_terrain_mapping.egg-info/SOURCES.txt'
+writing manifest file 'rover_terrain_mapping.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/rover_stack_humble/install/rover_terrain_mapping/lib/python3.10/site-packages/rover-terrain-mapping.egg-link (link to .)
+Installing terrain_mapper script to /root/rover_stack_humble/install/rover_terrain_mapping/lib/rover_terrain_mapping
+
+Installed /root/rover_stack_humble/build/rover_terrain_mapping
+running symlink_data
+creating /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index
+creating /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index/resource_index
+creating /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index/resource_index/packages
+symbolically linking /root/rover_stack_humble/build/rover_terrain_mapping/resource/rover_terrain_mapping -> /root/rover_stack_humble/install/rover_terrain_mapping/share/ament_index/resource_index/packages
+symbolically linking /root/rover_stack_humble/build/rover_terrain_mapping/package.xml -> /root/rover_stack_humble/install/rover_terrain_mapping/share/rover_terrain_mapping

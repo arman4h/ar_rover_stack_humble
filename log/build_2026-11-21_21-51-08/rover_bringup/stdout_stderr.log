@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating rover_bringup.egg-info
+writing rover_bringup.egg-info/PKG-INFO
+writing dependency_links to rover_bringup.egg-info/dependency_links.txt
+writing requirements to rover_bringup.egg-info/requires.txt
+writing top-level names to rover_bringup.egg-info/top_level.txt
+writing manifest file 'rover_bringup.egg-info/SOURCES.txt'
+reading manifest file 'rover_bringup.egg-info/SOURCES.txt'
+writing manifest file 'rover_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/rover_stack_humble/install/rover_bringup/lib/python3.10/site-packages/rover-bringup.egg-link (link to .)
+
+Installed /root/rover_stack_humble/build/rover_bringup
+running symlink_data
+creating /root/rover_stack_humble/install/rover_bringup/share/ament_index
+creating /root/rover_stack_humble/install/rover_bringup/share/ament_index/resource_index
+creating /root/rover_stack_humble/install/rover_bringup/share/ament_index/resource_index/packages
+symbolically linking /root/rover_stack_humble/build/rover_bringup/resource/rover_bringup -> /root/rover_stack_humble/install/rover_bringup/share/ament_index/resource_index/packages
+symbolically linking /root/rover_stack_humble/build/rover_bringup/package.xml -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup
+creating /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch
+symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/description.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch
+symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/full_system.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch
+symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/terrain.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch
+symbolically linking /root/rover_stack_humble/build/rover_bringup/launch/safety.launch.py -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/launch
+creating /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/config
+symbolically linking /root/rover_stack_humble/build/rover_bringup/config/terrain.yaml -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/config
+symbolically linking /root/rover_stack_humble/build/rover_bringup/config/safety.yaml -> /root/rover_stack_humble/install/rover_bringup/share/rover_bringup/config

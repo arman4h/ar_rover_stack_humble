@@ -1,0 +1,6 @@
+Invoking command in '/root/rover_stack_humble/build/rover_terrain_costmap': /usr/bin/cmake /root/rover_stack_humble/src/rover_terrain_costmap -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/rover_stack_humble/install/rover_terrain_costmap
+Invoked command in '/root/rover_stack_humble/build/rover_terrain_costmap' returned '0': /usr/bin/cmake /root/rover_stack_humble/src/rover_terrain_costmap -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/rover_stack_humble/install/rover_terrain_costmap
+Invoking command in '/root/rover_stack_humble/build/rover_terrain_costmap': /usr/bin/cmake --build /root/rover_stack_humble/build/rover_terrain_costmap -- -j8 -l8
+Invoked command in '/root/rover_stack_humble/build/rover_terrain_costmap' returned '0': /usr/bin/cmake --build /root/rover_stack_humble/build/rover_terrain_costmap -- -j8 -l8
+Invoking command in '/root/rover_stack_humble/build/rover_terrain_costmap': /usr/bin/cmake --install /root/rover_stack_humble/build/rover_terrain_costmap
+Invoked command in '/root/rover_stack_humble/build/rover_terrain_costmap' returned '0': /usr/bin/cmake --install /root/rover_stack_humble/build/rover_terrain_costmap

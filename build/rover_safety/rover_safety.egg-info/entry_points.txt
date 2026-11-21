@@ -1,0 +1,3 @@
+[console_scripts]
+cmd_vel_watchdog = rover_safety.watchdog:main
+

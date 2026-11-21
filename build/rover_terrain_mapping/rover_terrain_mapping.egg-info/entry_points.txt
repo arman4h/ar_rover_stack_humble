@@ -1,0 +1,3 @@
+[console_scripts]
+terrain_mapper = rover_terrain_mapping.terrain_mapper:main
+

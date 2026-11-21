@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="terrain_rover">
+  <link name="base_link"/>
+  <link name="livox_frame"/>
+  <joint name="base_to_livox" type="fixed">
+    <parent link="base_link"/><child link="livox_frame"/>
+    <origin xyz="-0.40 0 0.62" rpy="0 0.7853981634 0"/>
+  </joint>
+  <link name="zed_camera_link"/>
+  <joint name="base_to_zed" type="fixed">
+    <parent link="base_link"/><child link="zed_camera_link"/>
+    <origin xyz="0 0 0.82" rpy="0 0 0"/>
+  </joint>
+</robot>

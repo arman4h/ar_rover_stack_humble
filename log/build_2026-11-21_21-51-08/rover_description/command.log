@@ -1,0 +1,6 @@
+Invoking command in '/root/rover_stack_humble/build/rover_description': /usr/bin/cmake /root/rover_stack_humble/src/rover_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/rover_stack_humble/install/rover_description
+Invoked command in '/root/rover_stack_humble/build/rover_description' returned '0': /usr/bin/cmake /root/rover_stack_humble/src/rover_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/rover_stack_humble/install/rover_description
+Invoking command in '/root/rover_stack_humble/build/rover_description': /usr/bin/cmake --build /root/rover_stack_humble/build/rover_description -- -j8 -l8
+Invoked command in '/root/rover_stack_humble/build/rover_description' returned '0': /usr/bin/cmake --build /root/rover_stack_humble/build/rover_description -- -j8 -l8
+Invoking command in '/root/rover_stack_humble/build/rover_description': /usr/bin/cmake --install /root/rover_stack_humble/build/rover_description
+Invoked command in '/root/rover_stack_humble/build/rover_description' returned '0': /usr/bin/cmake --install /root/rover_stack_humble/build/rover_description
